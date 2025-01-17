@@ -34,11 +34,14 @@ Make sure you have the following installed:
 
 1. Once the infrastructure is set up, you can run the bash script to apply terraform, fetch data from the API, store it into the S3 bucket, query the data using athena:
 
-    ```bash
-    ./script
+   ```bash
+   ./script
    ```
 
 2. Check the S3 bucket for the output files.
+3. To clean up:
+
+   Empty  the S3 bucket on AWS console and run the command: `./destry`
 
 ## Architecture
 
