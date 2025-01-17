@@ -1,0 +1,6 @@
+*env
+venv/
+poetry.lock
+terraform/.terraform/
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate
