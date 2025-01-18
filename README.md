@@ -4,6 +4,8 @@
 
 This project automates the configuration of an AWS environment using Terraform and Python. It sets up an S3 bucket and an AWS Glue database with a corresponding table schema using terraform. The python script retrieves data from an API, and stores the processed results back into the S3 bucket and also setup Amazon Athena that query the data and store the result in S3 bucket.
 
+![Workflow](./Screenshot%202025-01-18%20023058.png)
+
 ## Prerequisites
 
 Make sure you have the following installed:
